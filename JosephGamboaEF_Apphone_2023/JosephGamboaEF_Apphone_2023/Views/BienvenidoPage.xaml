@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JosephGamboaEF_Apphone_2023.Views.BienvenidoPage"
+             Shell.NavBarIsVisible="false" 
+             NavigationPage.HasNavigationBar="false" 
+             BackgroundColor="Cyan">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Padding="50, 25, 50,25">
+            <Button x:Name="BtnLogin" Text="Ingresar" BackgroundColor="Green" CornerRadius="15"  Clicked="BtnLogin_Clicked"/>
+            <Button x:Name="BtnSingUp" Text="Salir" BackgroundColor="#28809E" CornerRadius="15" Clicked="BtnSingUp_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
